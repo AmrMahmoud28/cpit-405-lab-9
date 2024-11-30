@@ -13,8 +13,8 @@ const App = () => {
         <Nav />
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/recipe-details/:id" element={<RecipeDetails />} />
+            <Route path="cpit-405-lab-9/" element={<Home />} />
+            <Route path="cpit-405-lab-9/recipe-details/:id" element={<RecipeDetails />} />
             {/* <Route path="/about" element={<About />} /> */}
           </Routes>
         </main>
